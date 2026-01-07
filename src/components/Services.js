@@ -1,7 +1,4 @@
 // Import videos at the top
-import weddingsVideo from "../assets/wedding.mp4";
-import privatePartiesVideo from "../assets/party.mp4";
-import corporateEventsVideo from "../assets/corporate.mp4";
 
 const Services = () => {
   return (
@@ -17,7 +14,7 @@ const Services = () => {
               loop 
               muted
               playsInline
-              src={weddingsVideo}
+              src="https://twodawgs-assets.s3.us-east-2.amazonaws.com/wedding.mp4"
             >
               Your browser does not support the video tag.
             </video>
@@ -39,7 +36,7 @@ const Services = () => {
               loop 
               muted
               playsInline
-              src={privatePartiesVideo}
+              src="https://twodawgs-assets.s3.us-east-2.amazonaws.com/party.mp4"
             >
               Your browser does not support the video tag.
             </video>
@@ -61,7 +58,7 @@ const Services = () => {
               loop 
               muted
               playsInline
-              src={corporateEventsVideo}
+              src="https://twodawgs-assets.s3.us-east-2.amazonaws.com/corporate.mp4"
             >
               Your browser does not support the video tag.
             </video>
