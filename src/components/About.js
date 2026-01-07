@@ -11,7 +11,7 @@ const About = () => (
       {/* Text */}
       <div className="col-md-6">
         <p style={{ maxWidth: "700px", fontSize: "20px" }}>
-  We’re Reuben and Tommy, the duo behind Two Dawgs DJ. What started in 2022 as a college side hustle with Nicky and Tommy has grown into a full-blown passion for bringing music, fun, and unforgettable experiences to weddings, parties, and events of all kinds. When Reuben joined and Nicky moved on, the two of us took over, mixing our experience, energy, and love for the crowd to make every event a celebration.
+  We’re Reuben and Tommy, the duo behind Two Dawgs DJ, founded and based in Columbus, Ohio. What started in 2022 as a college side hustle with Nicky and Tommy has grown into a full-blown passion for bringing music, fun, and unforgettable experiences to weddings, parties, and events of all kinds. When Reuben joined and Nicky moved on, the two of us took over—mixing our experience, energy, and love for the crowd to make every event a true celebration.
 </p>
       </div>
 

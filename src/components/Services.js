@@ -1,7 +1,7 @@
 // Import videos at the top
-import weddingsVideo from "../assets/party.mp4";
+import weddingsVideo from "../assets/wedding.mp4";
 import privatePartiesVideo from "../assets/party.mp4";
-import corporateEventsVideo from "../assets/party.mp4";
+import corporateEventsVideo from "../assets/corporate.mp4";
 
 const Services = () => {
   return (
