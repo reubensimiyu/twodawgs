@@ -1,65 +1,59 @@
-Two Dawgs DJ 🎧
+# Two Dawgs DJ 🎧
 
-A full-stack web application for my professional DJ service that accepts booking inquiries, stores them securely, and delivers a smooth, responsive user experience.
+**Two Dawgs DJ** is a full-stack web application for my personal professional DJ service. It is built to accept booking inquiries, store them securely, and provide a fast, modern user experience.
 
-Deployed on AWS with a serverless architecture, the site features a custom domain, HTTPS, and scalable backend services.
+The site is deployed on **AWS** using a serverless architecture and includes a custom domain, HTTPS, and scalable backend services.
 
-🚀 Live Site
+---
 
-https://your-custom-domain.com
+## 🚀 Live Site
+[👉 Visit Two Dawgs DJ](https://your-custom-domain.com)  
+*(Hosted with AWS Amplify)*
 
-(Hosted with AWS Amplify)
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend
+### Frontend
+- **React**
+- **Bootstrap**
+- Hosted on **AWS Amplify**
+- **Custom domain + HTTPS (TLS 1.3)**
 
-React + Bootstrap
+### Backend
+- **AWS API Gateway** (REST API)
+- **AWS Lambda** (Node.js)
+- **Amazon DynamoDB** (Inquiry storage)
 
-Hosted on AWS Amplify
+### Media Hosting
+- **Amazon S3** (hero video and assets)
+- Public read access via bucket policy
 
-Custom domain + HTTPS (TLS 1.3)
+### Planned / Optional
+- **Amazon SES** – automatic inquiry confirmation emails
+- Admin dashboard for managing inquiries
 
-Backend
+---
 
-AWS API Gateway (REST API)
+## 📋 Features
+- 🎶 Responsive marketing site
+- 📩 “Book Us” contact form
+- 🗃️ Inquiry data stored in **DynamoDB**
+- 🔒 Secure REST API
+- 🌐 Custom domain with SSL
+- 🎥 Video content served from S3
 
-AWS Lambda (Node.js)
+---
 
-Amazon DynamoDB (Inquiry storage)
+## 🧩 Architecture Overview
 
-Media Hosting
-
-Amazon S3 (hero video & assets)
-
-Optional / Planned
-
-Amazon SES – automated inquiry confirmation emails
-
-Admin dashboard for managing inquiries
-
-📋 Key Features
-
-Responsive marketing site optimized for desktop & mobile
-
-Contact form for booking inquiries
-
-Secure REST API storing data in DynamoDB
-
-Hero video and assets served from S3
-
-Full SSL + custom domain for professional branding
-
-🧩 Architecture Overview
 React (Amplify)
-      |
-      | POST /inquiries
-      v
-API Gateway (REST API)
-      |
-      v
-AWS Lambda
-      |
-      v
-DynamoDB
-
+|
+v
+POST /inquiries → API Gateway (REST)
+|
+v
+AWS Lambda (Node.js)
+|
+v
+DynamoDB (Inquiry Storage)
