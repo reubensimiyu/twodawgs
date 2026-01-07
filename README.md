@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Two Dawgs DJ 🎧
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Two Dawgs DJ** is a full-stack web application for my personal professional DJ service, built to accept booking inquiries, store them securely, and provide a fast, modern user experience.
 
-## Available Scripts
+The site is deployed on AWS using a serverless architecture and includes a custom domain, HTTPS, and scalable backend services.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+👉 https://your-custom-domain.com  
+*(Hosted with AWS Amplify)*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- **React**
+- **Bootstrap**
+- Hosted on **AWS Amplify**
+- Custom domain + HTTPS (TLS 1.3)
 
-### `npm run build`
+### Backend
+- **AWS API Gateway** (REST API)
+- **AWS Lambda** (Node.js)
+- **Amazon DynamoDB** (Inquiry storage)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Media Hosting
+- **Amazon S3** (hero video and assets)
+- Public read access via bucket policy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### (Planned / Optional)
+- **Amazon SES** – automatic inquiry confirmation emails
+- Admin dashboard for managing inquiries
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📋 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🎶 Responsive marketing site
+- 📩 “Book Us” contact form
+- 🗃️ Inquiry data stored in DynamoDB
+- 🔒 Secure REST API
+- 🌐 Custom domain with SSL
+- 🎥 Video content served from S3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧩 Architecture Overview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React (Amplify)
+|
+| POST /inquiries
+v
+API Gateway (REST)
+|
+v
+AWS Lambda
+|
+v
+DynamoDB
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
