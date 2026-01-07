@@ -48,12 +48,10 @@ The site is deployed on **AWS** using a serverless architecture and includes a c
 ## 🧩 Architecture Overview
 
 React (Amplify)
-|
-v
+  ↓
 POST /inquiries → API Gateway (REST)
-|
-v
+  ↓
 AWS Lambda (Node.js)
-|
-v
+  ↓
 DynamoDB (Inquiry Storage)
+
