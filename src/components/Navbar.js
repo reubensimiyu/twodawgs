@@ -34,7 +34,7 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto text-center">
-            {["home", "about", "services", "contact"].map(
+            {["home", "about", "services", "testimonials", "contact", ].map(
               (section) => (
                 <li className="nav-item" key={section}>
                   <Link
